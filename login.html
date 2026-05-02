@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <Style>
+
+body {
+
+    background-color: #FA9D56;
+
+
+}
+
+.formulario {
+
+    text-align:center;
+    
+    
+}
+
+
+.login {
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+input:focus{
+    border-color: darkorange;
+    border-width: 2px;
+    outline: none;
+
+}
+
+.botao_entrar {
+
+    background-color: orange;
+    color: white;
+    width: 400px;
+    padding: 20px;
+    margin:10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.botao_entrar:hover {
+  background-color: darkorange;
+  cursor: pointer;
+}
+
+
+.caixa_login {
+
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 10px;
+    border-color: transparent;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+.recuperacao_senha {
+
+    border:none;
+    background: none;
+    color: darkorange;
+    font-size: 16px;
+
+}
+
+.recuperacao_senha:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.criar_conta {
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+
+
+}
+
+
+.criar_conta:hover {
+    background-color: #897878;
+    cursor: pointer;
+
+
+}
+
+
+hr {
+
+    width: 400px;
+    color: rgba(128, 128, 128, 0.5);
+}
+
+
+    </Style>
+
+</head>
+<body>
+
+    <form class="formulario">
+
+    <div class="caixa_login">
+        
+        <input class = "login" type="text" placeholder="E-mail ou telefone"> <br>
+
+        <input class = "login" type="text"  placeholder="Senha"> <br>
+
+        <button class="botao_entrar"> Entrar </button>
+
+        <button class="recuperacao_senha">Esqueceu a senha?</button>
+
+        <hr>
+
+        <button class="criar_conta">Criar conta</button>
+
+    </div>
+    
+    </form>
+
+</body>
+</html>
