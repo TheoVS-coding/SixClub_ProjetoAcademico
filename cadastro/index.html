@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="imagen.ico/favicon.ico.png">
+    <title>Cadastro</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastrar</h1>
+
+        <form>
+            <!-- Dados do Responsável -->
+            <div class="grupo-campo">
+                <label>Nome Completo <span class="obrigatorio">*</span></label>
+                <input type="text" required placeholder="Digite o nome completo">
+            </div>
+
+            <div class="linha-dupla">
+                <div class="grupo-campo">
+                    <label>CPF <span class="obrigatorio">*</span></label>
+                    <input type="text" required placeholder="000.000.000-00">
+                </div>
+                <div class="grupo-campo">
+                    <label>RG</label>
+                    <input type="text" placeholder="00.000.000-0">
+                </div>
+            </div>
+
+            <div class="linha-dupla">
+                <div class="grupo-campo">
+                    <label>Telefone <span class="obrigatorio">*</span></label>
+                    <input type="tel" required placeholder="(00) 00000-0000">
+                </div>
+                <div class="grupo-campo">
+                    <label>E-mail</label>
+                    <input type="email" placeholder="seuemail@exemplo.com">
+                </div>
+            </div>
+
+            <!-- Dados da Residência -->
+            <div class="grupo-campo">
+                <label>CEP <span class="obrigatorio">*</span></label>
+                <input type="text" required placeholder="00000-000">
+            </div>
+
+            <div class="grupo-campo">
+                <label>Logradouro (Rua/Avenida) <span class="obrigatorio">*</span></label>
+                <input type="text" required placeholder="Nome da rua, avenida, etc.">
+            </div>
+
+            <div class="linha-dupla">
+                <div class="grupo-campo">
+                    <label>Número <span class="obrigatorio">*</span></label>
+                    <input type="text" required placeholder="Nº">
+                </div>
+                <div class="grupo-campo">
+                    <label>Complemento</label>
+                    <input type="text" placeholder="Apto, Bloco, Casa">
+                </div>
+            </div>
+
+            <div class="grupo-campo">
+                <label>Bairro <span class="obrigatorio">*</span></label>
+                <input type="text" required placeholder="Nome do bairro">
+            </div>
+
+            <div class="linha-dupla">
+                <div class="grupo-campo">
+                    <label>Cidade <span class="obrigatorio">*</span></label>
+                    <input type="text" required placeholder="Nome da cidade">
+                </div>
+                <div class="grupo-campo">
+                    <label>Estado <span class="obrigatorio">*</span></label>
+                    <select required>
+                        <option value="">Selecione</option>
+                        <option>SP</option>
+                        <option>RJ</option>
+                        <option>MG</option>
+                        <option>PR</option>
+                        <option>RS</option>
+                    
+                    </select>
+                </div>
+            </div>
+
+            <div class="grupo-campo">
+                <label>Tipo de Residência <span class="obrigatorio">*</span></label>
+                <select required>
+                    <option value="">Selecione</option>
+                    <option>Casa</option>
+                    <option>Apartamento</option>
+                    <option>Outro</option>
+                </select>
+            </div>
+
+            <button type="submit">Criar conta</button>
+        </form>
+    </div>
+</body>
+</html>
