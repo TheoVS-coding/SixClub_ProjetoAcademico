@@ -7,7 +7,7 @@
 
         /* Fundo laranja */
         body {
-            background-color: #ffa500; /* laranja padrão */
+            background: linear-gradient(rgb(255, 166, 0) 10% , rgb(255, 253, 253) 40%); /*ADICIONEI - THEO */
             padding: 20px;
         }
 

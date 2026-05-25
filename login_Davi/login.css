@@ -1,24 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <Style>
-
 body {
-
-    background-color: #FA9D56;
-
-
+    background: linear-gradient(rgb(255, 166, 0) 10% , rgb(255, 253, 253) 40%); /*ADICIONEI - THEO*/
+    width: 100%; /*ADICIONEI - THEO*/
+    height: 100%; /*ADICIONEI - THEO*/
+    margin-bottom: 1000px; /*ADICIONEI - THEO*/
+    overflow: hidden; /*ADICIONEI - THEO*/
 }
 
 .formulario {
-
     text-align:center;
-    
-    
+    margin-top: 200px;  /*ADICIONEI - THEO*/
 }
 
 
@@ -36,11 +26,9 @@ input:focus{
     border-color: darkorange;
     border-width: 2px;
     outline: none;
-
 }
 
 .botao_entrar {
-
     background-color: orange;
     color: white;
     width: 400px;
@@ -52,9 +40,7 @@ input:focus{
     font-weight: bold;
     font-size: 20px;
     display: flex;
-    flex-direction: column;
-
-    
+    flex-direction: column; 
 }
 
 .botao_entrar:hover {
@@ -64,7 +50,6 @@ input:focus{
 
 
 .caixa_login {
-
     border: 1px solid black;
     box-sizing: border-box;
     display: inline-block;
@@ -75,12 +60,10 @@ input:focus{
 }
 
 .recuperacao_senha {
-
     border:none;
     background: none;
     color: darkorange;
     font-size: 16px;
-
 }
 
 .recuperacao_senha:hover {
@@ -95,50 +78,16 @@ input:focus{
     padding: 10px;
     border-radius: 20px;
     margin: 10px;
-
-
 }
 
 
 .criar_conta:hover {
     background-color: #897878;
     cursor: pointer;
-
-
 }
 
 
 hr {
-
     width: 400px;
     color: rgba(128, 128, 128, 0.5);
 }
-
-
-    </Style>
-
-</head>
-<body>
-
-    <form class="formulario">
-
-    <div class="caixa_login">
-        
-        <input class = "login" type="text" placeholder="E-mail ou telefone"> <br>
-
-        <input class = "login" type="text"  placeholder="Senha"> <br>
-
-        <button class="botao_entrar"> Entrar </button>
-
-        <button class="recuperacao_senha">Esqueceu a senha?</button>
-
-        <hr>
-
-        <button class="criar_conta">Criar conta</button>
-
-    </div>
-    
-    </form>
-
-</body>
-</html>
