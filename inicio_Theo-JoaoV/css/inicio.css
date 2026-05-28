@@ -165,19 +165,19 @@ section {
 .categorias{
     padding: 20px 18%;
     background-color: white;
-    margin-top: 410px;
+    margin-top: 580px;
 }
 
 .categorias__titulo{
     text-align: center;
     font-size: 55px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    font-weight: 150;
     letter-spacing: 3px;
-    color: black; 
+    color: rgb(37, 37, 37); 
     border-right: 3px solid rgb(255, 166, 0); 
     border-left: 3px solid rgb(255, 166, 0); 
     padding: 35px;
-    margin-top: 150px;
+    margin-top: 60px;
 }
 
 .categorias__titulo h1{
@@ -212,7 +212,7 @@ section {
 
 .categorias__img h4{
     font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -220,15 +220,16 @@ section {
 /* PRODUTOS */
 .produtos{
     padding: 40px 7%;
+    margin-top: 100px;
 }
 
 .produtos__titulo{
     margin-top: 100px;
     text-align: center;
     font-size: 55px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     letter-spacing: 1px;  
-    color: black;
+    color: rgb(37, 37, 37);
     border-right:3px solid var(--main-color);
     border-left:3px solid var(--main-color);
     padding: 35px;
@@ -245,9 +246,12 @@ section {
     padding: 15px;  
     margin-right: 15px;  
     transition: ease .40s;
+    cursor: pointer;
 }
 .produtos__conteudo:hover{
-    transform: translateY(-5px);
+    transform: translateY(-3px);
+    border-bottom: 3px solid var(--main-color);
+
 }
 
 .produtos__conteudo-img{
@@ -277,3 +281,52 @@ section {
     color: white;
     background-color: black;
 }
+
+.produtos__todos{
+    text-align: center;
+    border: 2px solid rgb(37, 37, 37);
+    padding: 25px;
+    width: 1000px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: ease .40s;
+    border-radius: 140px;
+}
+
+.produtos__todos h1{
+    font-size: 35px;
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.produtos__todos:hover{ 
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+footer{
+    padding: 50px;
+    background-color: var(--main-color);
+    margin-top: 150px;
+    display: flex;
+    justify-content: top;
+    font-size: 30px;
+}
+
+footer ul{
+    padding: 100px;
+    margin-top: -100px;
+    margin-left: -30px;
+    padding-bottom: 50px;
+}
+
+footer ul li{
+    cursor: pointer;
+    width: 250px;
+}
+
+footer ul li:hover{
+    transform: translateX(-3px);
+}
+
