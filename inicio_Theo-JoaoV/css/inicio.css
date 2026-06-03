@@ -17,7 +17,7 @@
 }
 
 body{
-    background: linear-gradient(rgb(255, 166, 0) 10% , rgb(255, 253, 253) 40%);
+    background: linear-gradient(rgb(255, 166, 0) 15% , rgb(255, 253, 253) 20%);
     /*background-color: var(--bg);*/ /*ALTEREI - THEO*/
 }
 
@@ -85,7 +85,7 @@ section {
     margin: 30px auto;
     border-radius: 20px;
     overflow: hidden;
-    background-color: #000; /* fundo para imagens menores */
+    background-color: #0e0d0d; /* fundo para imagens menores */ /*ALTEREI - THEO*/ /*#fff*/
 }
 
 /* IMAGENS - MOSTRAR INTEIRA */
@@ -165,7 +165,8 @@ section {
 .categorias{
     padding: 20px 18%;
     background-color: white;
-    margin-top: 580px;
+    margin-top: 83px;
+    border-bottom: 5px solid rgba(245, 242, 242, 0.589); /*ADICIONEI - THEO*/
 }
 
 .categorias__titulo{
@@ -194,7 +195,7 @@ section {
 .categorias__img{
     position: relative;
     cursor: pointer;
-    padding: 4px;
+    padding: 40px;
     margin: 30px;
     border-radius: 7px;
     transition: ease .5s;
@@ -220,7 +221,8 @@ section {
 /* PRODUTOS */
 .produtos{
     padding: 40px 7%;
-    margin-top: 100px;
+    margin-top: 30px;
+    background-color: white;
 }
 
 .produtos__titulo{
@@ -258,6 +260,17 @@ section {
     width: 100%;
 }
 
+.produtos__conteudo-preco{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+.produtos__conteudo-nome{
+    font-size: 2rem;
+    color: rgb(104, 104, 104);
+}
+
 .produtos__botao{
     text-align: center;
     margin-bottom: 15px;
@@ -279,7 +292,7 @@ section {
 }
 #carrinho:hover{
     color: white;
-    background-color: black;
+    background-color: #000;
 }
 
 .produtos__todos{
@@ -288,7 +301,7 @@ section {
     padding: 25px;
     width: 1000px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 70px;
     transition: ease .40s;
     border-radius: 140px;
 }
