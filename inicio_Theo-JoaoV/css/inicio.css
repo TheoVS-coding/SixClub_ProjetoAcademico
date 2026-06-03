@@ -93,6 +93,7 @@ section {
     width: 100%;
     height: 100%;
     object-fit: contain; /* 🔥 ESSENCIAL (não corta a imagem) */
+    cursor: pointer;
 }
 
 /* SETAS */
@@ -319,12 +320,12 @@ section {
 }
 
 footer{
-    padding: 50px;
+    padding: 1rem;
     background-color: var(--main-color);
     margin-top: 150px;
     display: flex;
     justify-content: top;
-    font-size: 30px;
+    font-size: 23px;
 }
 
 footer ul{
