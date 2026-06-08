@@ -67,7 +67,7 @@
         }
 
         button:hover {
-            background-color: #e69500;
+            background-color: #f3f3f3; /*e69500*/
         }
 
         .obrigatorio {
@@ -119,7 +119,7 @@
             display: inline-flex;
             align-items: center;
             gap: 10px;
-            background: #e8ff47;
+            background: #ffffff; /*#e8ff47*/
             border: none;
             color: #0d0d0d;
             padding: 13px 22px;
