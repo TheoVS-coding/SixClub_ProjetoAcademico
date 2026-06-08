@@ -343,3 +343,109 @@ footer ul li:hover{
     transform: translateX(-3px);
 }
 
+/*##################################################################################################*/
+/*PARTE - GABRIEL*/
+/*##################################################################################################*/
+
+@media (max-width: 991px) {
+    section {
+        padding: 2rem 1.5rem;
+    }
+
+    /* Ajuste dos títulos gigantes para não estourarem na tela */
+    .categorias__titulo, .produtos__titulo {
+        font-size: 3.5rem;
+        padding: 20px 10px;
+        margin-top: 40px;
+    }
+
+    /* Espaçamento das categorias */
+    .categorias {
+        padding: 20px 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Ajuste da logo e menu para empilhar no celular */
+    .header section {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .navbar .a1 {
+        margin-left: 0; /* Remove o recuo grande no celular */
+    }
+
+    .navbar a {
+        display: inline-block;
+        margin: 0.5rem 1rem;
+        font-size: 1.6rem;
+    }
+
+    /* Compensação do topo devido ao menu ter ficado mais alto */
+    .slide {
+        margin-top: 14rem !important;
+    }
+
+    /* Carrossel */
+    #carouselExampleIndicators, .carousel-item {
+        height: 280px;
+    }
+
+    /* Alinhamento dos cards de categoria */
+    .categorias__layout {
+        grid-gap: 2rem;
+    }
+
+    .categorias__img {
+        margin: 10px 0;
+        padding: 20px;
+    }
+
+    .produtos__layout {
+        flex-direction: column; /* Faz os tênis ficarem um embaixo do outro */
+        align-items: center;
+    }
+
+    .produtos__conteudo {
+        width: 100%; 
+        max-width: 340px;
+        margin-right: 0;
+        margin-bottom: 25px;
+        flex-direction: column; /* Alinha foto, nome e preço na vertical */
+        text-align: center;
+        border: 1px solid #eee;
+        border-radius: 8px;
+    }
+
+    /* Ajuste do botão "Ver Todos"*/
+    .produtos__todos {
+        width: 100%;
+        max-width: 90%;
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+    .produtos__todos h1 {
+        font-size: 2.2rem;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 80px;
+        padding: 3rem 1rem;
+    }
+
+    footer ul {
+        padding: 20px 0;
+        margin: 0;
+    }
+
+    footer ul li {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}

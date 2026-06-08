@@ -93,3 +93,50 @@ hr {
     width: 400px;
     color: rgba(128, 128, 128, 0.5);
 }
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 480px) {
+    body {
+        background: linear-gradient(rgb(255, 166, 0) 10% , rgb(255, 253, 253) 40%) !important;
+        height: 100vh !important;
+        min-height: 100vh !important;
+        overflow: hidden !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .formulario {
+        margin: 0 !important;
+        padding: 0 20px !important; 
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .caixa_login {
+        width: 100% !important; 
+        max-width: 340px !important;
+        padding: 25px 20px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .login, 
+    .botao_entrar, 
+    hr {
+        width: 100% !important; 
+        max-width: 100% !important;
+        box-sizing: border-box !important; 
+        margin: 10px 0 !important; 
+    }
+
+    .botao_entrar {
+        justify-content: center !important;
+        align-items: center !important; 
+    }
+}

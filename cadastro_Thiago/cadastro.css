@@ -73,3 +73,76 @@
         .obrigatorio {
             color: red;
         }
+
+/* RESPONSIVIDADE */
+@media (max-width: 480px) {
+    body {
+        background: linear-gradient(rgb(255, 166, 0) 10% , rgb(255, 253, 253) 40%) !important;
+        height: auto !important;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 10px !important;
+    }
+
+    .container {
+        width: 100% !important;
+        max-width: 100%;
+        padding: 20px 15px !important;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 24px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .linha-dupla {
+        flex-direction: column !important;
+        gap: 0 !important; 
+    }
+
+    .linha-dupla div {
+        margin-bottom: 18px; 
+    }
+    
+    .linha-dupla div:last-child {
+        margin-bottom: 0;
+    }
+}
+.btn-solid {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            width: fit-content;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #e8ff47;
+            border: none;
+            color: #0d0d0d;
+            padding: 13px 22px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+}
+
+        .btn-solid:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(232, 255, 71, 0.25);
+}
+
+        .btn-solid:active {
+            transform: translateY(0);
+}
+
+        .btn-solid .arrow {
+            transition: transform 0.3s cubic-bezier(.34, 1.56, .64, 1);
+}
+
+        .btn-solid:hover .arrow {
+            transform: translateX(-5px);
+}
